@@ -13,7 +13,10 @@ export default function Front() {
             <h2 className="text-xl font-bold text-wrap md:text-2xl lg:text-4xl xl:text-6xl">Make The Best Financial Decisions</h2>
             <span className="text-slate-500 text-xs md:text-sm xl:text-lg">Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</span>
             <div className="flex gap-4 flex-col md:flex-row">
-                <Button message={"Get Started"} bg={"black"} image={"arrow.png"}/>
+            <button className='text-white bg-black flex items-center p-2 px-4 rounded-lg gap-2 justify-between'> 
+                    <span className="text-nowrap">Get Started</span>
+                    <img src="images/arrow.png" className="w-5" alt="" /> 
+            </button>
                 <span className="flex gap-4 items-center">
                     <img src="images/play.png" alt="" />
                     <span className="text-nowrap">WATCH NOW</span>

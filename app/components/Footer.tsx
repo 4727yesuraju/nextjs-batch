@@ -1,6 +1,5 @@
 import React from 'react'
 import Logo from './Logo'
-import Button from './Button'
 
 export default function Footer() {
   const items = {

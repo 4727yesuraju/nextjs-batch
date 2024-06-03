@@ -16,7 +16,10 @@ export default function Start() {
         <div className="flex flex-col gap-2 items-center sm:items-start sm:gap-4 justify-center px-4 lg:pl-20">
             <h2 className="text-sm  font-bold text-nowrap sm:text-xl lg:text-5xl xl:text-7xl 2xl:text-8xl">Ready To Get Started?</h2>
             <p className="text-xs md:text-sm text-wrap xl:text-xl  ">Risus Habitant Leo Egestas Maris Daim Eget Morbi Tempus Vulputate</p>
-            <Button message={"Download App"} bg={"white"} image={"apple.png"}/>
+            <button className='text-black bg-white flex items-center p-2 px-4 rounded-lg gap-2 justify-between'> 
+                    <span className="text-nowrap">Download App</span>
+                    <img src="images/apple.png" className="w-5" alt="" /> 
+            </button>
         </div>
         <div className="w-full md:w-1/2">
             <img src="images/iPhone.png" alt="" className="w-full"/>
