@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Faqs() {
-    const quetions = {
+    const quetions:any = {
         "The Best Financial Accounting AppEver1" : "Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.",
         "The Best Financial Accounting AppEver2" : "Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.",
         "The Best Financial Accounting AppEver3" : "Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.",

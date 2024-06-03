@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from './Logo'
 
 export default function Footer() {
-  const items = {
+  const items:any = {
     "Links" : ["Home","About Us","Booking","Blog"],
     "Legal" : ["Terms of User","Privacy Policy","Cookie Policy"],
     "Product" : ["Take Tour","Live Chat","Reviews"]
@@ -35,7 +35,7 @@ export default function Footer() {
               return <div className="flex flex-col" key={i}>
                  <span className="font-bold lg:text-2xl">{key}</span>
                  {
-                  items[key].map((terms,i)=>{
+                  items[key].map((terms:any,i:any)=>{
                     return <span className=" text-nowrap text-xs text-slate-500 lg:text-xl" key={i}>{terms}</span>
                   })
                  }

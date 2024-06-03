@@ -4,7 +4,6 @@ import Faqs from './Faqs'
 import Testimonial from './Testimonial'
 import Advantages from './Advantages'
 import Features from './Features'
-import Page1 from './page1'
 import Front from './Front'
 import Customize from './Customize'
 
